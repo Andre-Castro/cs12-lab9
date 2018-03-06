@@ -4,7 +4,8 @@
 
 class Charmander: public Pokemon{
   public:
-    Charmander():Pokemon(Fire, "Charmander", 39, 60){}
+    // insert constructr here
+      // hp = 39, sp. attack = 60
     void attack(Pokemon *poke);
 };
 
